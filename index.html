@@ -31,7 +31,7 @@
         <nav class="nav-bar navbar-expand-lg navbar-light bg-light">
             <div class="container-fluid">
                 <div class="navbar header">
-                    <a class="navbar-brand" href="#">About Me!</a>
+                    <a class="navbar-brand" href="#">My Infomation</a>
                     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
                     <div class="collapse navbar-collapse" id="navbarNav">
                         <ul class="navbar-nav">
@@ -44,8 +44,7 @@
                 </div>
             </div>
         </nav>
-    </header>>
-
+    </header>
 
 <!-- Card Section -->
 <div class="container mt-5">
@@ -54,7 +53,7 @@
             <div class="card">
                 <img src="profile-picture.jpg" class="card-img-top" alt="HTML5 Training" >
                 <div class="card-body">
-                    <section id="about">
+                    <section id="about_me">
 				        <h5 class="card-title">About Me</h5>
                         <!-- card-title: This class styles the title of the card, typically used for headings. It applies specific font styles and sizes to make the title stand out. -->
                         <p class="card-text"><a href="https://www.linkedin.com/">linkedin</a></p>
@@ -68,6 +67,9 @@
                     <section id="skills">
                         <h5 class="card-title">My skills</h5>
 					    <p class="card-text">info on my skills.....</p>
+                        <div class="button-container">
+                            <a href="#skills" class="btn btn-primary">See My Skills</a>                            
+                        </div>
                     </section>
                 </div>
             </div>
@@ -78,11 +80,36 @@
                     <section id="projects">
                         <h5 class="card-title">My Projects</h5>
 					    <p class="card-text">my project details....</p>
+                        <div class="button-container">
+                            <a href="#skills" class="btn btn-primary">See My Projects</a>                            
+                        </div>
                     </section>
                 </div>
             </div>
         </div>
     </div>
 </div>
+<section id="contact">
+    <div class="container-fluid mt-5 text-center">
+        <h2>Contact</h2>
+        <form class="d-flex flex-column align-items-center"> <!-- Form remains centered -->
+            <fieldset class="w-75"> <!-- Set a fixed width for the fieldset -->
+                <div class="row justify-content-center mb-3">
+                    <label for="name" class="form-label col-sm-2 text-end">Full Name:</label> <!-- Align label to the right -->
+                    <div class="col-sm-4">
+                        <input type="text" class="form-control" id="name" placeholder="Enter your Name">
+                    </div>
+                </div>
+                <div class="row justify-content-center mb-3">
+                    <label for="email" class="form-label col-sm-2 text-end">Enter your email:</label> <!-- Align label to the right -->
+                    <div class="col-sm-4">
+                        <input type="email" class="form-control" id="email" placeholder="Enter your Email">
+                    </div>
+                </div>
+                <button type="submit" class="btn btn-primary">Submit</button> <!-- Centered button -->
+            </fieldset>
+        </form>
+    </div>
+</section>
 </body>
 </html>

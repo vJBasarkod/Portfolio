@@ -1,6 +1,6 @@
 /* About Me Section */
 .header-title {
-    color: #B0E0E6; /* Light color for the header */
+    color: #0cabc0; /* Light color for the header */
     text-align: center; /* Centered text */
 }
 
@@ -11,11 +11,11 @@
 
 #about_me h1 {
     font-weight: bold; /* Make the header bold */
-    color: rgb(133, 168, 161); /* Change header text color to white */
+    color: rgb(212, 223, 247); /* Change header text color to white */
 }
 
 .button-container {
-    display: flex; /* Use flexbox to space buttons */
+    display: flex; /* Use flexbox to space buttons */s
     justify-content: center; /* Center the buttons */
     gap: 10px; /* Space between buttons */
     margin-top: 20px; /* Space above the buttons */

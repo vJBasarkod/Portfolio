@@ -1,0 +1,59 @@
+/* About Me Section */
+.header-title {
+    color: #B0E0E6; /* Light color for the header */
+    text-align: center; /* Centered text */
+}
+
+#about_me {
+    background-color: #d8dfdf; /* Light background color for contrast */
+    padding: 20px; /* Padding for the section */
+}
+
+#about_me h1 {
+    font-weight: bold; /* Make the header bold */
+    color: rgb(133, 168, 161); /* Change header text color to white */
+}
+
+.button-container {
+    display: flex; /* Use flexbox to space buttons */
+    justify-content: center; /* Center the buttons */
+    gap: 10px; /* Space between buttons */
+    margin-top: 20px; /* Space above the buttons */
+}
+
+#Family {
+    width: 200px; /* Set width for the image */
+    height: 200px; /* Set height for the image */
+    border-radius: 100%; /* Make the image round */
+    margin-bottom: 50px; /* Space below the image */
+}
+
+section {
+    margin-top: 40px; /* Ensure spacing between sections */
+}
+
+#projects {
+    text-align: center; /* Center the Projects heading */
+}
+
+#contact h2 {
+    text-align: center; /* Center the Contact heading */
+}
+
+button[type="submit"] {
+    margin-top: 20px; /* Space above the submit button */
+    width: 150px; /* Optional: Set a width for consistency */
+}
+/* About Me Section */
+#Family {
+    width: 300px; /* Increase the width of the image */
+    height: auto; /* Maintain aspect ratio */
+    border-radius: 15px; /* Apply rounded edges to the image */
+    margin-bottom: 20px; /* Add some space below the image */
+}
+
+.cursive-text {
+    font-family: 'Great Vibes', cursive; /* Change to cursive font */
+    text-align: center; /* Center align the paragraph text */
+    font-size: 18px; /* Adjust font size as needed */
+    margin: 20px 0; /* Add some space around the paragraph */
